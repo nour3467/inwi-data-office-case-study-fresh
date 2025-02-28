@@ -1,0 +1,20 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore large datasets
+data/raw_data.csv
+data/series_test.parquet/
+data/series_train.parquet/
+data/child-mind-institute-problematic-internet-use.zip
+data/
+
+
+
+# Ignore virtual environment
+venv/
+ref/
+results/
